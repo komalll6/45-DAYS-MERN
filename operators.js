@@ -35,6 +35,7 @@ let age = 20
 console.log(age > 5 && age > 10) //if condition are true then it return => true
 console.log(age > 5 || age > 10) //
 
+
 //increment and decrement
 a++
 console.log(a)
