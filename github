@@ -1,16 +1,10 @@
 // github are - code collaboration
-// commands are
+// commands are :>
 // 1. gitinit (repo are create)
 // 2. git branch -M main  (in git there are different branches, we work on branches, for the timing we work on main)
 // 3. git remote add origin https://github.com/komalll6/45-DAYS-MERN.git 
 // 4. These Three Commends Are Used To Create Repo First Time.
-// 5. 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// 5. git add . (to add the file) 
+// 6. git commit -m "commit" (want to give meaningful message in "", all msgs are go the commit area)
+// 7. git push -u origin main ()
+// 8. link- https://github.com/harsimranjitsensation-training/Training-Code (to show all daily codes we have done in class)

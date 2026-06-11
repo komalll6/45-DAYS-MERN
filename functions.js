@@ -1,6 +1,6 @@
 //functions are reusable code of block
 //eg- addtion two numbers, like addition logic are use again and again => here's are funcitons are use
-//two types- 
+//two types- declaration and parameters
 
 function greet(){   //function declaration, 
     console.log("good morning")
@@ -122,4 +122,3 @@ const funs = (num) =>{
    )
 }
 funs(21)
-
