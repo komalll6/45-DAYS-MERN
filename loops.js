@@ -1,4 +1,3 @@
-//10-06-26
 let i = 6;  //entry controlled
 while (i<5){
     console.log(i);
