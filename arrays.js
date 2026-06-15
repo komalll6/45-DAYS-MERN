@@ -52,7 +52,7 @@ console.log(arr.includes(3)) //to check if arr have 5 or not => ans are either t
 console.log(arr.indexOf("S"))
 
 
-
+//forloop method
 function printElements(arr){
     for(let i = 0; i<arr.length; i++){
     console.log(arr[i])
