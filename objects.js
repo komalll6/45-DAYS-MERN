@@ -9,9 +9,9 @@ hello = {
 
 //FUNCTIONS OF OBJECTS ARE =>
 //1. acessesing values
-console.log(hello.name)
-console.log(hello.gender)
-console.log(hello["name"])
+console.log(hello.name)   // .(dot notation)
+console.log(hello.gender)  
+console.log(hello["name"])  //sqr[] (notation)
 
 //2. updating values
 hello.name = "kanan",
