@@ -1,0 +1,35 @@
+<!-- //inspect in browawr have local storage, in broswer have interna storage 
+//inspect > storage > local storage
+//eg- login website, hum khi mei hafte baad login ho ate ho khi baar sath mei toh local storage ya session storgae mei preserve ho jati hai
+//work only one browser
+
+// localStorage.setItem("keyname- kis name se store krani  hai", "value kya deni hai")
+localStorage.setItem("username", "XYZ") -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+//L.S => store multiple things
+//jab tk user kuch perform na kre tab tk vesa he rhega
+
+    localStorage.setItem("username", "XYZ")
+    localStorage.setItem("age","22")
+
+    let value = localStorage.getItem("age") //retrn value in browser when we inspect
+    console.log(value)
+
+    localStorage.setItem("name", "komal kalra")
+    let name = localStorage.getItem(name)
+
+    localStorage.removeItem("age") //to remove anyy item
+    localStorage.clear() //clear all the items in storage
+</script>
+</html>
