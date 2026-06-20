@@ -23,7 +23,7 @@ if (!task || !date){
 
 }   
 
-function display(){ //sensation@12#
+function display(){
     let result = ""
 
     for(let i=0; i<todos.length; i++){

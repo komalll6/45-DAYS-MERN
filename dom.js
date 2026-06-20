@@ -89,7 +89,3 @@ function toggle(){
     isOn = true
   }
 }
-
-
-
-//

@@ -52,6 +52,3 @@ console.log(user.name)
 
 user.name="XYZ"
 console.log(user.name)
-
-
-
