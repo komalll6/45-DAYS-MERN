@@ -1,8 +1,19 @@
-import './index.css'
-import App  from './app.jsx'
+// import React from 'react'
+// import { createRoot } from 'react-dom/client'
+// import './index.css'
+// import App from './app.jsx'
 
-createroot(document.getElementById('root')).render(
-<script>
-<App/>
-</script>
+// createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// )
+
+import React from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './app.jsx'
+
+createRoot(document.getElementById('root')).render(
+    <App />
 )
