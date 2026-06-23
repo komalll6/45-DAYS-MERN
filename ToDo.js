@@ -32,7 +32,6 @@ function display(){
         ${todos[i].taskname} - ${todos[i].taskdate}
 
         <button onClick="deleteTask(${i})">Delete</button> 
-        <button onClick="clearTask">Clear</buttun>
         </span> <br>`;
 
         document.querySelector("#list").innerHTML = result
