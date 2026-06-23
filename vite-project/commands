@@ -1,0 +1,11 @@
+npm create vite@latest
+type project name
+select react from list
+then select javascript from list
+press yes to enter
+then u will get a link
+press ctrl+C to kill the server 
+then do cd your-project-name
+npm install
+npm run dev
+u will again get a localhost link
