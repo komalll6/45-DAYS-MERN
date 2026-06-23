@@ -11,4 +11,6 @@ let city = ("Jalandhar")
 let state = ("Punjab")
 // console.log(state)
 
-console.log("Hi My Name is: " + name + " and I'm from " + collage + city + state )
+// console.log("Hi My Name is: " + name + " and I'm from " + collage + city + state )
+console.log(`Hi My Name is: ${name} and I'm from ${collage}, ${city}, ${state}`);
+console.log("Hi My Name is: " + name + " and I'm from " + collage + ", " + city + ", " + state);
