@@ -25,6 +25,9 @@
 
 import Student from "./components/Student";
 import Person from "./components/Person";
+import Navabr from "./components/Navbar";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 function App(){
   return (
@@ -32,6 +35,9 @@ function App(){
     <h1>hellllllos</h1>
     <Student/>
     <Person/>
+    <Navabr/>
+    <Body/>
+    <Footer/>
     </>
   )
 }
