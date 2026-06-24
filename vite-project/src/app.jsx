@@ -23,7 +23,7 @@
 
 //not all the codes in app.jsx- make components outside and import in app.jsx
 
-import Student from "./components/Student";
+// import Student from "./components/Student";
 import Person from "./components/Person";
 import Navabr from "./components/Navbar";
 import Body from "./components/Body";
@@ -33,7 +33,7 @@ function App(){
   return (
     <>
     <h1>hellllllos</h1>
-    <Student/>
+    {/* <Student/> */}
     <Person/>
     <Navabr/>
     <Body/>

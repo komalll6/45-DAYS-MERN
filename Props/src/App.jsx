@@ -22,7 +22,7 @@ function App() {
   //     desc: "hllpoo just buy this"
   //   },
   // ]
-  
+
   return (
     <>
       <Student name="ABC" age="22"/>
