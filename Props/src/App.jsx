@@ -1,5 +1,6 @@
 import Student from "./components/Student"
 import products from "./data/products.js"
+import Details from "./components/Details.jsx"
 
 function App() {
   //js code are write before the return 
@@ -39,6 +40,8 @@ function App() {
         </div>
       ))}
 
+    <Details></Details>
+    
     </>
   )
 }
