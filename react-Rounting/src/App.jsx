@@ -10,7 +10,7 @@ function App(){
   return(
     <>
     <BrowerRouter>  
-    <Navbar/> //show to all pages, (common)
+    <Navbar/> {/* //show to all pages, (common) */}
     <Routes>
 
       <Route path='/' element = {<Home/>}></Route>
