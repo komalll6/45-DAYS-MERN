@@ -16,8 +16,10 @@ function App() {
 
     return (
         <>
-            <input ref={inputRef} placeholder="Enter text..." /><br></br>
+            <input ref={inputRef} placeholder="Enter text..." ></input><br></br>
             <button onClick={focus}>Submit</button><br></br>
+
+            <Form />
         </>
     )
 }
