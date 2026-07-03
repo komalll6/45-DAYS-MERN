@@ -21,7 +21,7 @@ import UserContext from "./context/UserContext";
 
 function App() {
   // let user = "John";
-  let obj = {id:1,name:"abc",city:"xyz"};
+  let obj = { name: "abc", age: 22, marks: 85 };
 
   return (
     <>
@@ -29,7 +29,7 @@ function App() {
         name: "A", age: 20, marks: 60
       }}> */}
       <UserContext.Provider value={obj}>
-        <Home></Home>
+      <Home></Home>
       </UserContext.Provider>
     </>
   )

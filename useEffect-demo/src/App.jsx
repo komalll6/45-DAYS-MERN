@@ -1,5 +1,4 @@
-import { useEffect } from "react"
-
+import { useEffect, useState } from "react"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +14,9 @@ function App() {
   return (
     <>
       <h1>{count}</h1>
-      <button onClick={(onClick)}>on click</button>
+      <button onClick={()=>setCount(count+1)}>+</button><br></br>   
+      <button onClick={()=>setCount(count-1)}>-</button>
+      <button onClick={()=>setCount(0)}>ReSet</button>
     </>
   )
 }
