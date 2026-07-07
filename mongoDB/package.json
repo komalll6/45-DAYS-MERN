@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "express": "^5.2.1",
-    "mongoos": "^0.0.1-security"
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^9.7.4"
   }
 }

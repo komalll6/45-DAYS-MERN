@@ -51,10 +51,10 @@ app.get('/status', (req, res) => {
     res.json({"status":"ok", "message":"Everything is working fine"}) //normally use this
 })
 
-app.listen(3001, () =>{
+app.listen(5000, () =>{
     console.log("server is running")
 })
 
-app.listen(3001)
+app.listen(5000)
 
 //insepct => network => header =>status code => 200 => means everything is working fine

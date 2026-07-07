@@ -1,8 +1,11 @@
 import express from "express";
+import connectDb from './config/db.js'
 
 const app = express()
 
 app.use(express.json())
+
+connectDb()
 
 app.listen(3001, ()=>{
     console.log("server is running")
