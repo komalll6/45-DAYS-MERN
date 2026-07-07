@@ -55,6 +55,6 @@ app.listen(5000, () =>{
     console.log("server is running")
 })
 
-app.listen(5000)
+// app.listen(5000)
 
 //insepct => network => header =>status code => 200 => means everything is working fine
