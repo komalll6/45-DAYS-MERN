@@ -1,0 +1,23 @@
+//SERVER ?
+// 3 chize ko satisfied krna padega => ELECTRONIC DEVICES, CONNECT TO INTERNET, RETURN SOMETHING.
+//serve to client, comp are just user.
+//client ? => browser is client, app are client, desktop are client, whatsapp app are client => server connect to internet and there backend are made acc. to us => take and give res. 
+//like strongboot, pyhton but (not C, C++), we using- express and nodeJS.
+//like react- we write HTML,JS,CSS but convert in components. and Vite are convert in JS-DOM.
+//in react we write js, this code are execute in browser. inn browser havejsengine they execute it. frontend code ar execute in browser.
+//v8 engine are compiler of JS.
+
+//if work in js => execute in sys. coz to make server. 
+//in our sys have that kind of env. which are in chrome. for this we have to install => nodeJS. it is run time env. 
+//express=> top framework of node where make api.
+
+//backend are make sys kind of which they serve something.
+//app.listen => to tro excess something locally.
+
+//make two files => app.js, server.js
+//in package.json => have interview ques are D/W => common or module 
+//commands => npm init -y (package.json) , npm nodemon (package-lock.json)
+//PACKAGES => (npm i express mongoose dotenv)
+//express=> makes api 
+//mongoose=> connect to server to databases,  to make this connection called ORM, ODM (sequial or non-sequail)
+//dotenv => very  confidintial things(passwords) are store in env file and to acess with dotenv
