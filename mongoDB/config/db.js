@@ -1,7 +1,11 @@
-import mongoose from 'mongoose'
+import mongoose from "mongoose";
 
-const connectDb = () =>{ mongoose.connect("mongodb+srv://komalkalra698:radheradhe123@cluster0.g1sskil.mongodb.net/?appName=Cluster0")
-.then(() => console.log("mongoose connected"))
+export const db = async () => {
+try{
+   mongoose.connect(process.env.MONGO_URL)
+   console.log("connected to db")
+}catch(err){
+  process.exit(1)
+  console.log(err.message)
 }
-
-export default connectDb
+};
